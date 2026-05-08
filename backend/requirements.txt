@@ -1,0 +1,14 @@
+fastapi
+uvicorn
+motor
+pydantic
+pydantic-settings
+python-multipart
+python-jose[cryptography]
+passlib[bcrypt]
+django
+djangorestframework
+django-cors-headers
+pymongo
+python-dotenv
+pillow
