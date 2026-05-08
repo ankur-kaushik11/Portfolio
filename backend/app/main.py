@@ -8,7 +8,7 @@ app = FastAPI(title="Portfolio API", version="1.0.0")
 # CORS Configuration
 app.add_middleware(
     CORSMiddleware,
-    allow_origins=["*"], # In production, replace with frontend URL
+    allow_origins=["https://portfolio-henna-ten-71.vercel.app/"], # In production, replace with frontend URL
     allow_credentials=True,
     allow_methods=["*"],
     allow_headers=["*"],
